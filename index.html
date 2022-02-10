@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minimalist-website</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section id="hero">
+        <div class="container-fluid">
+            <div class="header">
+                <div class="header__logo-box">
+                    <a href="#">
+                        <img class="header__logo" src="./imgs/logo-alex.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="header__nav nav" id="navModal">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link nav-text" href="index.html">home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link nav-text" href="portfolio.html">portfolio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link nav-text" href="contact.html">contact me</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__menu" id="menuBtn"><i class='bx bx-menu' id="icon"></i></button>
+            </div>
+            <div class="hero">
+                <div class="hero__desc">
+                    <h1 class="hero__title">Hey, I'm Alex Spencer and I love building beautiful websites</h1>
+                    <div class="hero__box">
+                        <img class="btn__img" src="./imgs/btn.svg" alt="btn">
+                        <button class="hero__btn btn">ABOUT ME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container-fluid">
+            <div class="about__page">
+                <div class="about__img-box col-xs-12 col-sm-6">
+                    <img class="about__img" src="./imgs/alex.jpg" alt="alex">
+                </div>
+                <div class="about__desc col-xs-12 col-sm-6">
+                    <div class="about__info">
+                        <h2 class="about__title">About Me</h2>
+                        <p class="about__text text">
+                            I'm a junior front-end developer looking for a new role in an exciting company. I focus on
+                            writing accessible HTML, using modern CSS practices and writing clean JavaScript. When
+                            writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required.
+                            I'm based in London, UK, but I'm happy working remotely and have experience in remote teams.
+                            When I'm not coding, you'll find me outdoors. I love being out in nature whether that's
+                            going for a walk, run or cycling. I'd love you to check out my work.
+                        </p>
+                        <a class="about__link" href="#">GO TO PORTFOLIO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container-fluid">
+            <div class="contact__page">
+                <h2 class="contact__title">Interested in doing a project together?</h2>
+                <span class="contact__span"></span>
+                <a class="contact__btn" href="#">CONTACT ME</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="footer__box">
+                <img class="footer__logo" src="./imgs/white-logo.svg" alt="logo">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link nav-text" href="#">home</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link nav-text" href="#">portfolio</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link nav-text" href="#">contact me</a>
+                    </li>
+                </ul>
+                <ul class="footer__media media">
+                    <li class="media__item">
+                        <a class="media__link" href="#"><i class='bx bxl-github'></i></a>
+                    </li>
+                    <li class="media__item">
+                        <a class="media__link" href="#"><i class='bx bxl-twitter'></i></a>
+                    </li>
+                    <li class="media__item">
+                        <a class="media__link" href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
